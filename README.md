@@ -158,3 +158,24 @@ for install alfred you need
 
 
 * enjoy 🍀
+
+
+## how to set python 3,6 or other as default python
+
+list of python installed
+
+````
+ls -l /usr/local/bin/python*
+````
+
+change 3,6 for that you want
+
+````
+ln -s -f /usr/local/bin/python3.6 /usr/local/bin/python
+````
+
+verified
+
+`````
+python --version
+`````
